@@ -776,7 +776,7 @@ stateDiagram-v2
 | Parameter | Type | Required | Description |
 |-----------|------|----------|-------------|
 | `amount` | decimal | ✅ | المبلغ (أقل قيمة: 0.01) |
-| `currency` | string | ✅ | العملة (3 أحرف: SAR, USD, etc.) |
+| `currency` | string | ✅ | العملة (3 أحرف: SAR etc.) |
 | `payment_method` | string | ✅ | طريقة الدفع: `wallet`, `mada`, `credit_card`, `bank_transfer` |
 | `customer_email` | email | ✅ | بريد العميل الإلكتروني |
 | `description` | string | ❌ | وصف الدفع (حد أقصى 500 حرف) |
@@ -867,7 +867,7 @@ stateDiagram-v2
 - الحد الأدنى للمبلغ: **0.01** من العملة المحددة
 - صلاحية رابط الدفع: **24 ساعة** من وقت الإنشاء
 - طرق الدفع المدعومة: `wallet`, `mada`, `credit_card`, `bank_transfer`
-- العملات المدعومة: `SAR`, `USD`, `EUR`, `GBP`
+- العملات المدعومة: `SAR`   
 
 ---
 
@@ -1906,7 +1906,7 @@ erDiagram
 | Parameter | Type | Required | Description |
 |-----------|------|----------|-------------|
 | `amount` | decimal | ✅ | المبلغ المراد تسويته (أقل قيمة: 0.01) |
-| `currency` | string | ✅ | العملة (3 أحرف: SAR, USD, etc.) |
+| `currency` | string | ✅ | العملة (3 أحرف: SAR etc.) |
 | `settlement_method` | string | ❌ | طريقة التسوية: `bank_transfer`, `check`, `cash` |
 | `bank_account` | object | ❌ | بيانات الحساب البنكي (مطلوب إذا كانت الطريقة bank_transfer) |
 | `reason` | string | ❌ | سبب التسوية (حد أقصى 500 حرف) |
@@ -4114,6 +4114,7 @@ def get_payment_status(payment_id):
 **الإصدار:** 2.0.0
 
 </div>
+
 
 
 
