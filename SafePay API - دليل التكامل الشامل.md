@@ -4110,10 +4110,10 @@ def get_payment_status(payment_id):
 
 ---
 
-**تم إعداد المستند بواسطة:** SafePay Development Team  
-**التاريخ:** 2025-01-24  
+**تم إعداد المستند بواسطة:** SafePay Development Team   
 **الإصدار:** 2.0.0
 
 </div>
+
 
 
