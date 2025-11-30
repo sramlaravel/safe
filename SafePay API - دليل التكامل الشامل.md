@@ -140,7 +140,7 @@ sequenceDiagram
 
 - ✅ **الدفع المباشر** (Direct Payment) - معالجة المدفوعات بدون ضمان
 - ✅ **خدمة الضمان** (Escrow Service) - حماية المشتري والبائع في المعاملات
-- ✅ **طرق دفع متعددة** - دعم Mada، Credit Card، Bank Transfer، Wallet
+- ✅ **طرق دفع متعددة** - دعم  Credit Card، Bank Transfer، Wallet
 - ✅ **Webhooks** - إشعارات فورية للأحداث المهمة
 - ✅ **Double-Entry Accounting** - نظام محاسبي مزدوج القيد
 - ✅ **تقارير وتحليلات** - إحصائيات شاملة ومفصلة
@@ -4114,6 +4114,7 @@ def get_payment_status(payment_id):
 **الإصدار:** 2.0.0
 
 </div>
+
 
 
 
