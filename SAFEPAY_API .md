@@ -163,14 +163,7 @@ sequenceDiagram
 
 ## 🏗️ الهيكل العام
 
-### Base URL
-
-```
-Production:  https://api.safepay.com
-Sandbox:     https://sandbox-api.safepay.com
-Local:       http://localhost:8000
-```
-
+ 
 ### Headers المطلوبة
 
 جميع طلبات API تتطلب Headers التالية:
@@ -4958,8 +4951,7 @@ graph TB
 ---
 
 **تم إعداد المستند بواسطة:** SafePay Development Team  
-**التاريخ:** 2025-01-24  
-**الإصدار:** 3.0.0
+ 
 
 </div>
 
