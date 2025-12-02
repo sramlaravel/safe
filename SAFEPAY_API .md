@@ -4949,8 +4949,7 @@ graph TB
 ```
 
 ---
-
-**تم إعداد المستند بواسطة:** SafePay Development Team  
+ 
  
 
 </div>
